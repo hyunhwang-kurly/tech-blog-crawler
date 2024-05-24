@@ -1,0 +1,21 @@
+{
+  "name": "tech-blog-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.44.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
